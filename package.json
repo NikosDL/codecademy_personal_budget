@@ -1,0 +1,26 @@
+{
+  "name": "codecademy_personal_budget",
+  "version": "0.0.1",
+  "description": "Codecademy off-platform project: Personal Budget",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikosDL/codecademy_personal_budget.git"
+  },
+  "keywords": [
+    "portfolio",
+    "codecademy",
+    "javascript",
+    "backend",
+    "git(hub)"
+  ],
+  "author": "N. Didilis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NikosDL/codecademy_personal_budget/issues"
+  },
+  "homepage": "https://github.com/NikosDL/codecademy_personal_budget#readme"
+}
