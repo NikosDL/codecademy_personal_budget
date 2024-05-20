@@ -8,7 +8,7 @@ Object methods: getId, getName, setName, getMoney, setMoney, addMoney, removeMon
 
 // Global num representing the id of the next object to be created. Gets incremented every time 
 // a new object is created.
-let envelopeId = 0;
+let envelopeId = 1;
 
 class Envelope {
 	constructor(envName) {
@@ -27,10 +27,10 @@ class Envelope {
 	}
 
 	set name(newName) {
-		if (typeof newName === "String") {
+		if (typeof newName === "string") {
 			this._name = newName;
 		} else {
-			alert('Please enter a valid name.');
+			console.log('Please enter a valid name.');
 		}
 	}
 
@@ -42,7 +42,7 @@ class Envelope {
 		if (typeof amount === "number") {
 			this._moneyContained = amount;
 		} else {
-			alert("Please enter a valid amount of money.");
+			console.log("Please enter a valid amount of money.");
 		}
 	}
 
@@ -50,7 +50,7 @@ class Envelope {
 		if (typeof amount === "number") {
 			this._moneyContained += amount;
 		} else {
-			alert("Please enter a valid amount of money.");
+			console.log("Please enter a valid amount of money.");
 		}
 	}
 
@@ -58,7 +58,7 @@ class Envelope {
 		if (typeof amount === "number") {
 			this._moneyContained -= amount;
 		} else {
-			alert("Please enter a valid amount of money.");
+			console.log("Please enter a valid amount of money.");
 		}		 
 	}
 }
